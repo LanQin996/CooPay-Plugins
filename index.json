@@ -1,0 +1,105 @@
+{
+  "sourceId": "official",
+  "sequence": 1,
+  "plugins": [
+    {
+      "id": "alipay_complaint",
+      "name": "支付宝投诉",
+      "domain": "complaint",
+      "description": "支付宝投诉",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/alipay_complaint/3.0.0.zip",
+      "size": 7490,
+      "sha256": "ed2341eaa3a56913aa87a7c5114371a2cf4a46d90f273d71b1a763122ab28d4f"
+    },
+    {
+      "id": "alipay_payment",
+      "name": "支付宝支付",
+      "domain": "payment",
+      "description": "支付宝支付",
+      "version": "3.0.1",
+      "minHostProtocol": 2,
+      "path": "packages/alipay_payment/3.0.1.zip",
+      "size": 6474,
+      "sha256": "100100da70e077c623a90eaba3e37cc7594d07710437abae7be7d590ca9a0e9e"
+    },
+    {
+      "id": "aliyun_sms",
+      "name": "阿里云短信",
+      "domain": "sms",
+      "description": "阿里云短信",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/aliyun_sms/3.0.0.zip",
+      "size": 4502,
+      "sha256": "886e072207d9e179fc28b416d24b809ac687eb832fc5b89419805e4f43f3a8e4"
+    },
+    {
+      "id": "debug_realname",
+      "name": "实名本地调试",
+      "domain": "realname",
+      "description": "实名本地调试",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/debug_realname/3.0.0.zip",
+      "size": 4223,
+      "sha256": "a7fc1d8bfeef601015156390a286d953415d2e6a4109fed0acb93311d86fbd30"
+    },
+    {
+      "id": "debug_sms",
+      "name": "短信本地调试",
+      "domain": "sms",
+      "description": "短信本地调试",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/debug_sms/3.0.0.zip",
+      "size": 4041,
+      "sha256": "6cd2a0b4c3d95c8c25a4953ed32405fcef950ed218a7a5a96e347a11671d2a82"
+    },
+    {
+      "id": "easypay_payment",
+      "name": "易支付",
+      "domain": "payment",
+      "description": "易支付",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/easypay_payment/3.0.0.zip",
+      "size": 5802,
+      "sha256": "4a722fa5b9496d5e8a224e3a1ef2408f12726119c5945ef924c71d61f1701865"
+    },
+    {
+      "id": "tencent_realname",
+      "name": "腾讯云实名认证",
+      "domain": "realname",
+      "description": "腾讯云实名认证",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/tencent_realname/3.0.0.zip",
+      "size": 4980,
+      "sha256": "832eef8bd75f65007b9d834a22cf57ff0b196bbf0d96d74b16e14c90ac588cb7"
+    },
+    {
+      "id": "wechat_complaint",
+      "name": "微信投诉",
+      "domain": "complaint",
+      "description": "微信投诉",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/wechat_complaint/3.0.0.zip",
+      "size": 9202,
+      "sha256": "a40108004b6b8c1717f9cbdf231f2492342003a96971880b0d93658311e91ba3"
+    },
+    {
+      "id": "wechat_payment",
+      "name": "微信支付（API v3）",
+      "domain": "payment",
+      "description": "微信支付（API v3）",
+      "version": "3.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/wechat_payment/3.0.0.zip",
+      "size": 7041,
+      "sha256": "1db2ea529caab644c7a503b108b463e7d8329aa1bda81a9b25297bcdedc1f948"
+    }
+  ]
+}
