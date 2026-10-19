@@ -1,6 +1,6 @@
 {
   "sourceId": "official",
-  "sequence": 1,
+  "sequence": 3,
   "plugins": [
     {
       "id": "alipay_complaint",
@@ -100,6 +100,17 @@
       "path": "packages/wechat_payment/3.0.0.zip",
       "size": 7041,
       "sha256": "1db2ea529caab644c7a503b108b463e7d8329aa1bda81a9b25297bcdedc1f948"
+    },
+    {
+      "id": "wechat_payment_v2",
+      "name": "微信支付（API v2）",
+      "domain": "payment",
+      "description": "微信支付（API v2）",
+      "version": "1.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/wechat_payment_v2/1.0.0.zip",
+      "size": 4278,
+      "sha256": "5f8d9af0fa25513e4b54da37065b3a25cce7883994a7e7dbffc498a9abbc577b"
     }
   ]
 }
