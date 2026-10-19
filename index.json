@@ -1,6 +1,6 @@
 {
   "sourceId": "official",
-  "sequence": 4,
+  "sequence": 5,
   "plugins": [
     {
       "id": "alipay_complaint",
@@ -23,6 +23,17 @@
       "path": "packages/alipay_payment/3.0.1.zip",
       "size": 6474,
       "sha256": "100100da70e077c623a90eaba3e37cc7594d07710437abae7be7d590ca9a0e9e"
+    },
+    {
+      "id": "alipay_realname",
+      "name": "支付宝身份验证",
+      "domain": "realname",
+      "description": "支付宝身份验证",
+      "version": "1.0.0",
+      "minHostProtocol": 2,
+      "path": "packages/alipay_realname/1.0.0.zip",
+      "size": 6204,
+      "sha256": "06967cdda90d7026b8971f38d1fa5baab6e5e3620f88e61e5ebcb94090423a68"
     },
     {
       "id": "aliyun_sms",
