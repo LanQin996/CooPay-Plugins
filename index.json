@@ -1,6 +1,6 @@
 {
   "sourceId": "official",
-  "sequence": 7,
+  "sequence": 8,
   "plugins": [
     {
       "id": "alipay_complaint",
@@ -43,8 +43,8 @@
       "version": "3.0.3",
       "minHostProtocol": 2,
       "path": "packages/alipay_payment/3.0.3.zip",
-      "size": 6474,
-      "sha256": "50b6b66b5e6205e69c97a45fe126cd24d658eb33e791434521585db4d996d76f"
+      "size": 7613,
+      "sha256": "7ebb422667e72ce9cbc55bac58718ffbb7b6a8b3858db86d3de32472a5e050cb"
     },
     {
       "id": "alipay_realname",
