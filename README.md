@@ -20,7 +20,7 @@
 | 插件 | ID | 版本 |
 | --- | --- | --- |
 | 支付宝投诉 | `alipay_complaint` | 3.0.0 |
-| 支付宝支付 | `alipay_payment` | 3.0.4 |
+| 支付宝支付 | `alipay_payment` | 3.0.5 |
 | 阿里云短信 | `aliyun_sms` | 3.0.0 |
 | 支付宝身份验证 | `alipay_realname` | 1.0.0 |
 | 实名本地调试 | `debug_realname` | 3.0.0 |
@@ -44,3 +44,5 @@
 索引与所引用的 ZIP 必须在同一提交发布，目录序号递增。CooPay 下载会将 `main` 固定到提交 SHA，避免混用文件。包路径、大小和 SHA-256 以索引为准。更新只检查，不自动安装。
 
 在 CooPay-Go 源码仓库运行 `go run ./cmd/plugin-market-publish -source-id official -out-dir <本仓库目录>`，测试与校验全部成功后检查差异并自行提交推送。发布工具不自动执行 Git 操作，不把渠道凭据或任何私钥提交到本仓库。
+
+支付宝支付 3.0.5 修复通知 URL 的宿主 orderNo 路由提示被误计入 RSA2 验签的问题。该提示须匹配通知内已签名的 out_trade_no；重复参数及其他未签名字段仍拒绝。升级当前插件代码即可处理历史通知 URL，不需重新付款。

@@ -1,6 +1,6 @@
 {
   "sourceId": "official",
-  "sequence": 9,
+  "sequence": 10,
   "plugins": [
     {
       "id": "alipay_complaint",
@@ -56,6 +56,17 @@
       "path": "packages/alipay_payment/3.0.4.zip",
       "size": 7845,
       "sha256": "824162830b1dbadaf12222d56a56284087f23791e7b7079cb0775c90396480f7"
+    },
+    {
+      "id": "alipay_payment",
+      "name": "支付宝支付",
+      "domain": "payment",
+      "description": "支付宝支付",
+      "version": "3.0.5",
+      "minHostProtocol": 2,
+      "path": "packages/alipay_payment/3.0.5.zip",
+      "size": 8060,
+      "sha256": "63097e8e58acb36b8037a911584bd5a879696aa10c20d8552b058f26833842b5"
     },
     {
       "id": "alipay_realname",
