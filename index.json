@@ -1,6 +1,6 @@
 {
   "sourceId": "official",
-  "sequence": 16,
+  "sequence": 17,
   "plugins": [
     {
       "id": "alipay_complaint",
@@ -221,6 +221,17 @@
       "path": "packages/wechat_payment/3.0.4.zip",
       "size": 7995,
       "sha256": "5ab1474402891bae887bfc68ab64d8928758049061b1b8673235f80af218463b"
+    },
+    {
+      "id": "wechat_payment",
+      "name": "微信支付（API v3）",
+      "domain": "payment",
+      "description": "修复Native通知URL查询参数；须先更新支持路径回调的Go API",
+      "version": "3.0.5",
+      "minHostProtocol": 2,
+      "path": "packages/wechat_payment/3.0.5.zip",
+      "size": 8538,
+      "sha256": "9c210a0a147061af7a4811eacd738b433832f1a6bd717d39ba58d8eca1dc3af1"
     },
     {
       "id": "wechat_payment_v2",
