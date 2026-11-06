@@ -1,6 +1,6 @@
 {
   "sourceId": "official",
-  "sequence": 18,
+  "sequence": 19,
   "plugins": [
     {
       "id": "alipay_complaint",
@@ -113,6 +113,17 @@
       "sha256": "886e072207d9e179fc28b416d24b809ac687eb832fc5b89419805e4f43f3a8e4"
     },
     {
+      "id": "aliyun_sms",
+      "name": "阿里云短信",
+      "domain": "sms",
+      "description": "受限模板参数短信；须先更新支持host.describe的Go API",
+      "version": "3.0.1",
+      "minHostProtocol": 2,
+      "path": "packages/aliyun_sms/3.0.1.zip",
+      "size": 5752,
+      "sha256": "d291231fece777b9378d307f5acb25b735fb7e572fded10ef1c84397884206c6"
+    },
+    {
       "id": "debug_realname",
       "name": "实名本地调试",
       "domain": "realname",
@@ -133,6 +144,17 @@
       "path": "packages/debug_sms/3.0.0.zip",
       "size": 4041,
       "sha256": "6cd2a0b4c3d95c8c25a4953ed32405fcef950ed218a7a5a96e347a11671d2a82"
+    },
+    {
+      "id": "debug_sms",
+      "name": "短信本地调试",
+      "domain": "sms",
+      "description": "仅本地模拟模板短信；须先更新支持host.describe的Go API",
+      "version": "3.0.1",
+      "minHostProtocol": 2,
+      "path": "packages/debug_sms/3.0.1.zip",
+      "size": 5265,
+      "sha256": "7de4db5dc5bc44b71f922b890c5cd03c2f1168c6eb4525885d830079cb6b6aa2"
     },
     {
       "id": "easypay_payment",
@@ -188,6 +210,17 @@
       "path": "packages/wechat_complaint/3.0.2.zip",
       "size": 9982,
       "sha256": "24b116c2090a66a818b4714e185924dcfb5b293578bf5c2ab04d3554cd6ae823"
+    },
+    {
+      "id": "wechat_complaint",
+      "name": "微信投诉",
+      "domain": "complaint",
+      "description": "生命周期观测；须先迁0077并更新支持host.describe的Go API",
+      "version": "3.1.0",
+      "minHostProtocol": 2,
+      "path": "packages/wechat_complaint/3.1.0.zip",
+      "size": 10458,
+      "sha256": "b2f412bd0535de5b95a212f6893309a2f36e55c6e1ee8948741bdd5a7c4add40"
     },
     {
       "id": "wechat_payment",
