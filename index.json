@@ -1,6 +1,6 @@
 {
   "sourceId": "official",
-  "sequence": 19,
+  "sequence": 20,
   "plugins": [
     {
       "id": "alipay_complaint",
@@ -23,6 +23,17 @@
       "path": "packages/alipay_complaint/3.0.1.zip",
       "size": 7933,
       "sha256": "f1fd52e70f5dccda79a6a7b07a3d42abc49ef215706b8494494c3b13f8a771c4"
+    },
+    {
+      "id": "alipay_complaint",
+      "name": "支付宝投诉",
+      "domain": "complaint",
+      "description": "支付宝生命周期及资金保护；先迁0078/更新API，再升级并显式启用同步",
+      "version": "3.1.0",
+      "minHostProtocol": 2,
+      "path": "packages/alipay_complaint/3.1.0.zip",
+      "size": 8278,
+      "sha256": "defb60d3bff3bca30e23efd22d3aba3ad0eb936c807e72a4b92b00e29ad8ed3f"
     },
     {
       "id": "alipay_payment",

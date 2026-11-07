@@ -17,13 +17,15 @@
 
 ## 当前插件
 
+**支付宝投诉3.1.0：先部署支持支付宝生命周期的新Go API并显式应用0078，再升级插件和开启 `coopay.worker.alipayComplaintSync.enabled`。MERCHANT_FEEDBACKED不是结案；平台可靠终态与时间/原净入账证据由宿主核对。未匹配、未知或外部退款不伪造释放，插件不直接改钱包或发起退款。**
+
 **投诉/通知配套升级：微信投诉 3.1.0 须先应用迁移 0077 并更新提供 `host.describe` / `complaint.lifecycle.v1` 的 Go API；阿里云/调试短信 3.0.1 须先更新提供 `sms.template-parameters.v1` 的 API。旧宿主健康检查会失败关闭，不能仅凭插件协议 v2 认定兼容。插件不会自行修改钱包或选择通知用户；风控和短信/邮件开关由宿主显式配置。**
 
 **微信支付 API v3 3.0.5 升级前置条件：必须先部署包含 `POST /pay/provider/{pluginId}/{version}/callback/{orderNo}` 路由的 Go API，再升级插件。旧 API 只升级插件会使新通知地址不可用；仅满足插件协议 v2 不代表具备此路由。**
 
 | 插件 | ID | 版本 |
 | --- | --- | --- |
-| 支付宝投诉 | `alipay_complaint` | 3.0.1 |
+| 支付宝投诉 | `alipay_complaint` | 3.1.0 |
 | 支付宝支付 | `alipay_payment` | 3.0.6 |
 | 阿里云短信 | `aliyun_sms` | 3.0.1 |
 | 支付宝身份验证 | `alipay_realname` | 1.0.0 |
